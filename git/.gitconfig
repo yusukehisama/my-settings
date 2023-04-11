@@ -1,0 +1,17 @@
+[user]
+	email = yh.soccer0608@gmail.com
+	name = yusukehisama
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe
+[core]
+	editor = vim
+[alias]
+	st = status
+	co = checkout
+	pl = pull
+	pr = pull --rebase
+	tree = log --graph --all --format=\"%x09%C(cyan bold)%an%Creset%x09%C(yellow)%h%Creset %C(magenta reverse)%d%Creset %s\"
+	ba = branch -a
+	cm = commit -m
+	re = rebase
+	cob = checkout -b
